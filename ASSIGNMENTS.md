@@ -64,7 +64,7 @@ Never commit your real `.env` file or API key.
 
 ---
 
-### 1. Srinath Sreedharan - Resume Reviewer Graph
+### 1. nisargkadam23@gmail.com - Resume Reviewer Graph
 
 **Use Case:** A user pastes resume text and a job description. The graph reviews
 the resume and recommends improvements.
@@ -84,7 +84,7 @@ the resume and recommends improvements.
 
 ---
 
-### 2. Sharath R N - Recipe Planner Graph
+### 2. vasentsethia@gmail.com - Recipe Planner Graph
 
 **Use Case:** A user provides ingredients available at home. The graph suggests
 what to cook.
@@ -104,7 +104,7 @@ what to cook.
 
 ---
 
-### 3. Rituparna Hazra - Code Explainer Graph
+### 3. Korde.sachin@gmail.com - Code Explainer Graph
 
 **Use Case:** A user pastes code. The graph explains, reviews, and comments it.
 
@@ -123,7 +123,7 @@ what to cook.
 
 ---
 
-### 4. Suganya Krishnasamy - Story Writer Graph
+### 4. Lokeshmargana9@Gmail.com - Story Writer Graph
 
 **Use Case:** A user provides a story idea. The graph develops it into a story.
 
@@ -142,7 +142,7 @@ what to cook.
 
 ---
 
-### 5. Karthika S - SQL Helper Graph
+### 5. tadikondavishnu1@gmail.com - SQL Helper Graph
 
 **Use Case:** A user describes the data they need. The graph generates SQL and
 explains it.
@@ -162,7 +162,7 @@ explains it.
 
 ---
 
-### 6. Prem K Sundar - Product Copywriter Graph
+### 6. rohanjs94blr@gmail.com - Product Copywriter Graph
 
 **Use Case:** A user gives a product name and features. The graph creates
 product copy.
@@ -182,7 +182,7 @@ product copy.
 
 ---
 
-### 7. Sajjan Kanjaguli - Meeting Notes Graph
+### 7. thumati.ragavendrachary@gmail.com - Meeting Notes Graph
 
 **Use Case:** A user pastes messy meeting notes. The graph organizes them.
 
@@ -201,7 +201,7 @@ product copy.
 
 ---
 
-### 8. Vivek Jadhav - Travel Planner Graph
+### 8. kedarpuja.239@gmail.com - Travel Planner Graph
 
 **Use Case:** A user provides a destination and trip length. The graph creates a
 travel plan.
@@ -221,7 +221,7 @@ travel plan.
 
 ---
 
-### 9. Ankit Pandey - Interview Coach Graph
+### 9. hemanthhppl@gmail.com - Interview Coach Graph
 
 **Use Case:** A user provides a job role. The graph prepares interview practice.
 
@@ -240,7 +240,7 @@ travel plan.
 
 ---
 
-### 10. Piyush Tilara - Social Media Post Graph
+### 10. vishalghume.ai@gmail.com - Social Media Post Graph
 
 **Use Case:** A user provides an announcement. The graph converts it into social
 content.
@@ -260,7 +260,7 @@ content.
 
 ---
 
-### 11. Mohit Luthra - Bug Report Analyzer Graph
+### 11. firdos.cs028@gmail.com - Bug Report Analyzer Graph
 
 **Use Case:** A user pastes a bug report or error message. The graph analyzes
 the issue.
@@ -277,106 +277,6 @@ the issue.
 **Decision Node:** Decide whether the issue is low priority or urgent.
 
 **Final Nodes:** `standard_debug_plan` and `urgent_debug_plan`.
-
----
-
-### 12. Rahul Dusane - Study Notes Graph
-
-**Use Case:** A user provides a study topic. The graph creates learning
-material.
-
-**Specialist Node 1 - `explain_core_concepts`**
-- Explain key concepts.
-
-**Specialist Node 2 - `generate_examples`**
-- Provide examples or analogies.
-
-**Specialist Node 3 - `create_quiz_questions`**
-- Create practice questions.
-
-**Decision Node:** Decide whether the learner needs beginner or advanced notes.
-
-**Final Nodes:** `beginner_study_pack` and `advanced_study_pack`.
-
----
-
-### 13. Parth Kansara - Job Description Writer Graph
-
-**Use Case:** A user provides a job title and requirements. The graph writes a
-job description.
-
-**Specialist Node 1 - `write_role_overview`**
-- Draft the role overview.
-
-**Specialist Node 2 - `write_responsibilities`**
-- Draft responsibilities.
-
-**Specialist Node 3 - `write_requirements`**
-- Draft requirements and qualifications.
-
-**Decision Node:** Decide whether the JD should be formal or candidate-friendly.
-
-**Final Nodes:** `formal_job_description` and `engaging_job_post`.
-
----
-
-### 14. Daryl Aw - Customer Complaint Graph
-
-**Use Case:** A user pastes a customer complaint. The graph classifies and
-responds to it.
-
-**Specialist Node 1 - `classify_complaint_category`**
-- Classify the complaint type.
-
-**Specialist Node 2 - `classify_complaint_severity`**
-- Determine severity.
-
-**Specialist Node 3 - `suggest_resolution_path`**
-- Suggest next steps.
-
-**Decision Node:** Decide whether normal support or escalation is needed.
-
-**Final Nodes:** `standard_customer_response` and `escalation_response`.
-
----
-
-### 15. Akshaykumar More - Personal Finance Graph
-
-**Use Case:** A user provides income, expenses, and a financial goal. The graph
-creates a finance plan.
-
-**Specialist Node 1 - `analyze_income_expenses`**
-- Summarize monthly money flow.
-
-**Specialist Node 2 - `identify_savings_opportunities`**
-- Find places to reduce spending.
-
-**Specialist Node 3 - `plan_goal_timeline`**
-- Estimate a realistic timeline.
-
-**Decision Node:** Decide whether the goal is easy or challenging.
-
-**Final Nodes:** `simple_savings_plan` and `strict_savings_plan`.
-
----
-
-### 16. Bharat Chhabriya - Fitness Plan Graph
-
-**Use Case:** A user provides a fitness goal and current level. The graph
-creates a workout plan.
-
-**Specialist Node 1 - `suggest_cardio_plan`**
-- Suggest cardio activities.
-
-**Specialist Node 2 - `suggest_strength_plan`**
-- Suggest strength exercises.
-
-**Specialist Node 3 - `suggest_recovery_plan`**
-- Suggest rest, mobility, and safety tips.
-
-**Decision Node:** Decide whether the user needs beginner or intermediate plan.
-
-**Final Nodes:** `beginner_fitness_plan` and `intermediate_fitness_plan`.
 
 ---
 
